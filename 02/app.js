@@ -38,14 +38,14 @@ for(var x=2; x<=9; x++){
 */
 var x
 var sum = 0;
-for(var y = false; y === false; ){
+for(var y = false; y === false;){
  x = prompt("숫자");
   if(x === null){
     alert(sum);
     y = true;
   }
   else{
-    sum += parseInt(x, 10);
+    sum += parseint(x, 10);
   }
 }
 alert(sum);
