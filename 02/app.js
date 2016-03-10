@@ -45,7 +45,7 @@ for(var y = false; y === false;){
     y = true;
   }
   else{
-    sum += parseint(x, 10);
+    sum = sum + parseint(x, 10);
   }
 }
 alert(sum);
